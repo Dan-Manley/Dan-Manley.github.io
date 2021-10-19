@@ -354,7 +354,7 @@ input, select, textarea {
   font-family: 'Aleo';
   width: 500px;
   padding: 8px;
-  margin-left: 5%;
+  margin-left: 1.5%;
 }
 
 textarea {
@@ -365,7 +365,7 @@ button {
   height: 50px;
   min-width: 100px;
   color: black;
-  border: 2px solid #480508;
+  border: 1px solid #961b25;
   font-size: 1.25em;
   font-family: 'Aleo';
   border-radius: 4px;
@@ -376,5 +376,5 @@ button {
 }
 
 button:hover {
-  border: 2px solid black;
+  border: 1px solid black;
 }
