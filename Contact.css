@@ -371,11 +371,7 @@ button {
   font-family: 'Aleo';
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 50%;
+  margin-left: 40%;
   text-align: center;
   position: relative;
-}
-
-button:hover {
-  border: 1px solid black;
 }
