@@ -266,35 +266,6 @@ header#site_head {
 			-webkit-box-shadow: none;
 			box-shadow: none;
 		}
-		
-		#content{
-	position:relative;
-	margin:50px auto;   
-	width:400px;
-	min-height:200px;
-	z-index:100;
-	padding:30px;
-	border:1px solid #383838;   
-	background: #D1D1D1;
-/* My stripped background */
-	background: repeating-linear-gradient(-45deg, #EFC1CB , #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px,#F2F2F2 70px, #F2F2F2 80px);
-	border-radius:8px;
-	box-shadow:0px 1px 6px #3F3F3F;
-}
-
-#content:after{
-background:#F9F9F9;
-margin:10px;
-position: absolute;
-content : " ";
-bottom: 0;
-left: 0;
-right: 0;
-top: 0;
-z-index: -1; 
-border:1px #E5E5E5 solid;       
-border-radius:8px;
-}
 
 h1 {
 font-family: 'Questrial', Verdana, sans-serif;
