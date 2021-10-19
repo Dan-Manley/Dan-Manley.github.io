@@ -282,7 +282,7 @@ header#site_head {
 	box-shadow:0px 1px 6px #3F3F3F;
 }
 
-			#content:after{
+#content:after{
 background:#F9F9F9;
 margin:10px;
 position: absolute;
@@ -435,4 +435,44 @@ padding-right:10px;
 }
 .required{
 color:#E5224C;
+}
+
+div.elem-group {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
+  color: white;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
 }
