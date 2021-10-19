@@ -319,17 +319,6 @@ color:#7F7E7E;
 -moz-transition: color 1s ease;
 transition: color 1s ease;
 }
-label:hover{
-color:#191919;
-}
-label:before{
-color:#C1BFBD;
-transition: color 1s ease;
-}
-label:hover:before{
-color:#969696;
-transition: color 1s ease;
-}
  
 p{
 margin-bottom:20px;
@@ -354,6 +343,7 @@ label {
   font-family: 'Aleo';
   padding-bottom: 4px;
   font-size: 1.25em;
+  margin-left: 5%;
 }
 
 input, select, textarea {
@@ -364,6 +354,7 @@ input, select, textarea {
   font-family: 'Aleo';
   width: 500px;
   padding: 8px;
+  margin-left: 5%;
 }
 
 textarea {
@@ -373,12 +364,15 @@ textarea {
 button {
   height: 50px;
   min-width: 100px;
-  color: white;
+  color: black;
   border: 2px solid #480508;
   font-size: 1.25em;
   font-family: 'Aleo';
   border-radius: 4px;
   cursor: pointer;
+  margin-left: 50%;
+  text-align: center;
+  position: relative;
 }
 
 button:hover {
