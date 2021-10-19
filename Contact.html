@@ -58,7 +58,7 @@
 					</p>
 					
 			<div id="content">
-				<form action="https://formspree.io/f/mqkwoqob" method="POST">
+				<form id="my-form" action="https://formspree.io/f/mqkwoqob" method="POST">
   					<label>
     					Your email:
     					<input type="email" name="_replyto">
@@ -69,11 +69,35 @@
   					</label>
   					<!-- your other form fields go here -->
   					<button type="submit">Send</button>
+  					<p id="my-form-status"></p>
 				</form>
 			</div>
-			
+
 		</section>
 
 </div>
 </body>
+<!-- Place this script at the end of the body tag -->
+<script>
+    var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
 </html>
