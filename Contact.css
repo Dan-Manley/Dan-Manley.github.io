@@ -375,3 +375,12 @@ button {
   text-align: center;
   position: relative;
 }
+
+#my-form-status {
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  margin-top: 2%;
+  text-align: center;
+}
