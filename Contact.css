@@ -20,7 +20,7 @@ a:hover {
 	outline: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, label {
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	font-weight: normal;
 } 
