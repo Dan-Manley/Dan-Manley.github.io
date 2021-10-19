@@ -344,6 +344,7 @@ label {
   padding-bottom: 4px;
   font-size: 1.25em;
   margin-left: 5%;
+  color: #961b25
 }
 
 input, select, textarea {
@@ -364,7 +365,7 @@ textarea {
 button {
   height: 50px;
   min-width: 100px;
-  color: black;
+  color: #961b25;
   border: 1px solid #961b25;
   font-size: 1.25em;
   font-family: 'Aleo';
